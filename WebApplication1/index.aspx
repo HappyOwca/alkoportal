@@ -28,8 +28,8 @@
         
         <br />
         <asp:Button ID="Button2" runat="server" Text="Button" Width="76px" />
-        <p>
-            &nbsp;</p>
+        <br />
+        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
         
     </form>
 </body>
