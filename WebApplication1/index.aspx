@@ -16,7 +16,7 @@
         <div>
             <asp:Image ID="logo" runat="server" Height="75px" Width="100%" ImageUrl="~/logo.jpg" />
         </div>
-        <center><asp:TextBox ID="TextSzykaj" runat="server" Width="765px" Font-Italic="True" Height="43px" style="text-align: center" >wpisz miasto</asp:TextBox></center>
+        <center><asp:TextBox ID="TextSzykaj" runat="server" Width="765px" Font-Italic="True" Height="43px" style="text-align: center; font-size: x-large;" >wpisz miasto</asp:TextBox></center>
         
         <br />
         
@@ -24,12 +24,12 @@
         
         
             <br/>
-        <asp:Button ID="Button1" runat="server" Text="Button" Width="77px" />
+        <asp:Button ID="Button1" runat="server" Text="Home" Width="125px" OnClick="Button1_Click" />
         
         <br />
-        <asp:Button ID="Button2" runat="server" Text="Button" Width="76px" />
+        <asp:Button ID="Button2" runat="server" Text="Sklepy" Width="125px" />
         <br />
-        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
+        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Rodzaje alkoholi" Width="125px" />
         
     </form>
 </body>
