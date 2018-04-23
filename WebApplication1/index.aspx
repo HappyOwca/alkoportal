@@ -7,7 +7,7 @@
     <title></title>
     <style type="text/css">
         #form1 {
-            height: 205px;
+            height: 346px;
         }
     </style>
 </head>
@@ -25,6 +25,11 @@
         
             <br/>
         <asp:Button ID="Button1" runat="server" Text="Button" Width="77px" />
+        
+        <br />
+        <asp:Button ID="Button2" runat="server" Text="Button" Width="76px" />
+        <p>
+            &nbsp;</p>
         
     </form>
 </body>
